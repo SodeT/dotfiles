@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
 	use('m4xshen/autoclose.nvim')
+	use('NvChad/nvim-colorizer.lua')
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',

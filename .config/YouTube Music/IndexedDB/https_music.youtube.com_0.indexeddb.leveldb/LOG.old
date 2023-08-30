@@ -1,0 +1,12 @@
+2023/08/30-21:28:07.987 f46 Reusing MANIFEST /home/user/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/30-21:28:07.987 f46 Recovering log #46
+2023/08/30-21:28:07.994 f46 Reusing old log /home/user/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000046.log 
+2023/08/30-22:10:53.110 1a35 Level-0 table #51: started
+2023/08/30-22:10:53.118 1a35 Level-0 table #51: 1282896 bytes OK
+2023/08/30-22:10:53.119 1a35 Delete type=0 #46
+2023/08/30-22:25:35.291 1bc4 Compacting 1@1 + 1@2 files
+2023/08/30-22:25:35.296 1bc4 Generated table #52@1: 948 keys, 45805 bytes
+2023/08/30-22:25:35.296 1bc4 Compacted 1@1 + 1@2 files => 45805 bytes
+2023/08/30-22:25:35.297 1bc4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/30-22:25:35.297 1bc4 Delete type=2 #51
+2023/08/30-22:25:35.297 1bc4 Delete type=2 #48
