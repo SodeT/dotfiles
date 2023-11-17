@@ -1,1 +1,0 @@
-alacritty btop clang cmake dmenu doas gcc gdb gzip i3-wm i3status lxappearance make neovim nodejs-emojione qt5 tup ttf-jetbrains-mono ttf-font-awesome unzip xorg xorg-xinit zsh
