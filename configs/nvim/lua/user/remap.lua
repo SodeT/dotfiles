@@ -8,11 +8,9 @@ vim.keymap.set("n", "<leader>q", vim.cmd.q)
 vim.keymap.set("n", "<leader>w", vim.cmd.w)
 vim.keymap.set("n", "<leader>a", vim.cmd.wa)
 
-vim.keymap.set("n", "<leader>d", function ()
+vim.keymap.set("n", "<leader>r", function ()
 	vim.cmd.wincmd("w")
 end)
-vim.keymap.set("n", "<leader>r", vim.cmd.bnext)
-
 
 ------------------------------------------------------------
 -- Disable arrow keys
