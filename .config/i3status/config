@@ -1,0 +1,58 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+	colors = true
+	interval = 5
+	output_format = "i3bar"
+	separator = "&amp;"
+
+	color_good = "#689d68"
+	color_degraded = "#d78821"
+	color_bad = "#cc241d"
+
+}
+
+order += "tztime clock"
+order += "memory"
+order += "cpu_usage"
+order += "cpu_temperature 0"
+order += "disk /"
+order += "disk /home/user/Bisk"
+order += "tztime cal"
+
+disk "/" {
+	format = " / %percentage_used"
+}
+
+disk "/home/user/Bisk" {
+	format = " Bisk/ %percentage_used"
+}
+
+memory {
+	format = " %percentage_used"
+}
+
+cpu_usage {
+	format = "  %usage"
+}
+
+cpu_temperature 0 {
+	format = " %degrees °C"
+}
+
+tztime clock {
+	format = " %H:%M"
+	timezone = "Europe/Stockholm"
+	align = "left"
+}
+
+tztime cal {
+	format = " %d-%m-%Y"
+	timezone = "Europe/Stockholm"
+}
