@@ -8,5 +8,11 @@ family = "JetBrains Mono Medium"
 opacity = 0.9
 
 [window.padding]
-x = 5
-y = 5
+x = 7
+y = 7
+
+[colors.primary]
+background = "#282828"
+
+[cursor]
+style = {shape = "Beam"}
