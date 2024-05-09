@@ -25,6 +25,3 @@ alias fman='compgen -c | fzf | xargs man'
 alias rm='~/.config/trash.sh'
 alias empty_bin='\rm ~/.trash/* -rf'
 
-alias se='setxkbmap se'
-alias us='setxkbmap us'
-

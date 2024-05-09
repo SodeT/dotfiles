@@ -86,9 +86,9 @@ set $gray #a89984
 
 # blue gruvbox
 # class                 border|backgr|text|indicator|child_border
-client.focused          $bg2 $bg2 $yellow $yellow $yellow
-client.focused_inactive $bg $bg $fg $bg $bg
-client.unfocused        $bg $bg $fg $bg $bg
+client.focused          $bg $bg $yellow $yellow $yellow
+client.focused_inactive $bg2 $bg2 $fg $bg2 $bg2
+client.unfocused        $bg2 $bg2 $fg $bg2 $bg2
 client.urgent           $red $red $fg $red $red
 
 # Define names for default workspaces for which we configure key bindings later on.
@@ -160,9 +160,10 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+bindsym $mod+Tab exec ~/.config/keyboard.sh
+
 focus_follows_mouse no
 title_align center
-for_window [class=".*"] title_format " 󱓈 "
 for_window [class=".*"] border normal 0 px
 hide_edge_borders vertical
 gaps inner 10
